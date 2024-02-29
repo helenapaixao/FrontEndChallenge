@@ -37,7 +37,7 @@ const MobileViewRow: React.FC<MobileViewRowProps> = ({
       />
     </div>
     <div className="ml-2 flex-grow">
-      <div className="text-sm flex items-center">
+      <div className="text-sm flex items-center ml-4">
         <div className="font-inter font-semibold text-gray-900 text-lg">
           {data.carName}
         </div>
@@ -45,10 +45,10 @@ const MobileViewRow: React.FC<MobileViewRowProps> = ({
           <FontAwesomeIcon icon={faEllipsisV} className="text-gray-800" />
         </div>
       </div>
-      <div className="text-gray-500 font-inter font-normal text-sm mt-1">
+      <div className="text-gray-500 font-inter font-normal text-sm mt-1 ml-4">
         Next reservation: {data.nextReservation}
       </div>
-      <div className="mb-2 mt-3">
+      <div className="mb-2 mt-3 ml-4">
         <div className="flex gap-2">
           {Array.from({ length: data.rating }, (_, i) => (
             <FontAwesomeIcon key={i} icon={faStar} className="text-gray-900" />
