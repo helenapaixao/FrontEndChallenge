@@ -42,7 +42,7 @@ const TableRows: React.FC<TableRowsProps> = ({ data }) => (
         } px-2 py-1 text-xs font-semibold border-6 border-gray-800`}
       >
         {data.status}
-      </span> 
+      </span>
     </td>
     <td className="px-4 py-2 sm:px-6 sm:py-4">
       <div className="flex gap-2">
@@ -51,12 +51,13 @@ const TableRows: React.FC<TableRowsProps> = ({ data }) => (
         ))}
       </div>
     </td>
-    <td className="px-4 py-2 sm:px-6 sm:py-4">
-      <div className="flex items-center justify-center h-full">
+    <td className="px-4 py-2 sm:px-6 sm:py-4 ">
+      
         <FontAwesomeIcon icon={faEllipsisV} className="text-gray-800" />
-      </div>
     </td>
+
   </tr>
 );
+
 
 export default TableRows;

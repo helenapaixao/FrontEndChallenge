@@ -57,7 +57,7 @@ const MobileViewRow: React.FC<MobileViewRowProps> = ({
         </div>
       </div>
     </div>
-    <div className="w-full h-0.5 bg-gray-200 ml-0"></div>
+    <div className="w-full h-0.5 bg-gray-200 ml-4"></div>
   </>
 );
 
