@@ -1,0 +1,39 @@
+{
+  "tableData": [
+    {
+      "imageSrc": "/image.jpg",
+      "carName": "Mini Cooper 2020",
+      "nextReservation": "11/07",
+      "status": "Available",
+      "rating": 5
+    },
+      {
+      "imageSrc": "/image.jpg",
+      "carName": "Mini Cooper 2020",
+      "nextReservation": "11/07",
+      "status": "Available",
+      "rating": 5
+      },
+      {
+        "imageSrc": "/image.jpg",
+      "carName": "Mini Cooper 2020",
+      "nextReservation": "11/07",
+      "status": "Available",
+      "rating": 6
+      },
+      {
+        "imageSrc": "/image.jpg",
+      "carName": "Mini Cooper 2020",
+      "nextReservation": "11/07",
+      "status": "Available",
+      "rating": 6
+      },
+      {
+        "imageSrc": "/image.jpg",
+      "carName": "Mini Cooper 2020",
+      "nextReservation": "11/07",
+      "status": "Available",
+      "rating": 6
+      }
+    ]
+  }
