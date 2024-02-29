@@ -1,3 +1,5 @@
+# Teste-Técnico-Dev-Frontend-Jr
+
 # Next.js TailwindCSS Typescript Starter
 This is a [Next.js](https://nextjs.org/) 12.x, [TailwindCSS](https://tailwindcss.com/) 3.x, and [TypeScript](https://www.typescriptlang.org/docs/home.html) 4.x starter template
 
@@ -46,3 +48,8 @@ Other option is to click on the button below to create a new repository that loo
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vuongddang/nextjs-tailwindcss-typescript-starter/tree/main)
 
 Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+  ## Figma
+  Link: [`Figma`](https://www.figma.com/file/pXIEbENrC64kRCMbvctXnv/Teste-T%C3%A9cnico-Desenvolvedor-Jr.-Front-End?type=design&node-id=0-1&mode=design)
+
