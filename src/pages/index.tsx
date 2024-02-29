@@ -6,37 +6,36 @@ export default function Home() {
     <div className="overflow-hidden border border-gray-200 shadow-md m-5">
       <div className="sm:hidden">
         {/*  dispositivos móveis */}
-        <div className="p-4">
-          <div className="flex items-center mb-2">
-            <div className="relative h-14 w-14">
-              <img
-                className="h-full w-full object-cover object-center"
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
-              />
-            </div>
-            <div className="text-sm flex items-center ml-2">
+        <div className="p-4 flex items-start">
+          <div className="relative h-14 w-14 flex-shrink-0">
+            <img
+              className="h-full w-full object-cover object-center"
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              alt=""
+            />
+          </div>
+          <div className="ml-2 flex-grow">
+            <div className="text-sm flex items-center">
               <div className="font-inter font-medium text-gray-900 text-base">
                 Mini Cooper 2020
               </div>
             </div>
-          </div>
-          <div className="flex">
-            <div className="mb-2 text-gray-500 text-base font-inter font-regular mr-2">
-            Next reservation: 
+            <div className="flex">
+              <div className="mb-2 text-gray-500 text-base font-inter font-regular mr-2">
+                Next reservation:
+              </div>
+              <div className="mb-2 text-gray-500 text-base font-inter font-regular">
+                11/07
+              </div>
             </div>
-            <div className="mb-2 text-gray-500 text-base font-inter font-regular">
-              11/07
-            </div>
-          </div>
-
-          <div className="mb-2">
-            <div className="flex gap-2">
-              <FontAwesomeIcon icon={faStar} className="text-gray-900" />
-              <FontAwesomeIcon icon={faStar} className="text-gray-900" />
-              <FontAwesomeIcon icon={faStar} className="text-gray-900" />
-              <FontAwesomeIcon icon={faStar} className="text-gray-900" />
-              <FontAwesomeIcon icon={faStar} className="text-gray-900" />
+            <div className="mb-2">
+              <div className="flex gap-2">
+                <FontAwesomeIcon icon={faStar} className="text-gray-900" />
+                <FontAwesomeIcon icon={faStar} className="text-gray-900" />
+                <FontAwesomeIcon icon={faStar} className="text-gray-900" />
+                <FontAwesomeIcon icon={faStar} className="text-gray-900" />
+                <FontAwesomeIcon icon={faStar} className="text-gray-900" />
+              </div>
             </div>
           </div>
         </div>
