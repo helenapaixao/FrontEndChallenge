@@ -1,7 +1,7 @@
 // MobileViewRow.tsx
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEllipsisV, faCheck, faStar} from "@fortawesome/free-solid-svg-icons";
+import { faEllipsisV, faCheck, faStar } from "@fortawesome/free-solid-svg-icons";
 
 interface MobileViewRowProps {
   data: {
@@ -38,19 +38,12 @@ const MobileViewRow: React.FC<MobileViewRowProps> = ({
         <div className="font-inter font-semibold text-gray-900 text-base">
           {data.carName}
         </div>
-        <td className="px-4 py-2 sm:px-6 sm:py-4">
-          <div className="flex items-center justify-center h-full">
-            <FontAwesomeIcon icon={faEllipsisV} className="text-gray-800" />
-          </div>
-        </td>
+        <div className="flex items-center justify-center">
+        <FontAwesomeIcon icon={faEllipsisV} className="text-gray-800" />
       </div>
-      <div className="flex">
-        <div className="mb-2 text-gray-500 text-base font-inter font-regular mr-2">
-          Next reservation:
-        </div>
-        <div className="mb-2 text-gray-500 text-base font-inter font-regular">
-          {data.nextReservation}
-        </div>
+      </div>
+      <div className="text-gray-500 text-base font-inter font-regular mt-2">
+        Next reservation: {data.nextReservation}
       </div>
       <div className="mb-2">
         <div className="flex gap-2">
@@ -59,9 +52,9 @@ const MobileViewRow: React.FC<MobileViewRowProps> = ({
           ))}
         </div>
       </div>
+      
     </div>
   </div>
 );
-
 
 export default MobileViewRow;

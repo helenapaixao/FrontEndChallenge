@@ -32,27 +32,25 @@ const Table: React.FC<TableProps> = ({ isImageClicked, handleImageClick }) => {
       {/* Larger than sm */}
       <div className="table-responsive sm:block hidden">
         <table className="w-full border-collapse bg-white text-left text-sm text-gray-500">
-          {/* ... table header ... */}
-          <thead>
+        <thead className="bg-gray-50 hidden sm:table-header-group">
             <tr>
-              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500">
+              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500 text-inter text-base">
                 CAR
               </th>
-              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500">
+              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500 text-inter text-base">
                 NEXT RESERVATION
               </th>
-              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500">
+              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500 text-inter text-base">
                 STATUS
               </th>
-              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500">
+              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500 text-inter text-base">
                 RATING
               </th>
-              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500">
+              <th className="px-4 py-2 sm:px-6 sm:py-4 font-semibold text-gray-500 text-inter text-base">
                 ACTIONS
               </th>
             </tr>
           </thead>
-          {/* ... table body ... */}
           <tbody className="divide-y #6B7280 border-t border-gray-100 ">
             {tableRows}
           </tbody>
