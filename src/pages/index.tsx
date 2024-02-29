@@ -21,7 +21,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="mb-2 text-gray-500">NEXT RESERVATION: 11/07</div>
+          <div className="flex">
+            <div className="mb-2 text-gray-500 text-base font-inter font-regular mr-2">
+            Next reservation: 
+            </div>
+            <div className="mb-2 text-gray-500 text-base font-inter font-regular">
+              11/07
+            </div>
+          </div>
 
           <div className="mb-2">
             <div className="flex gap-2">
